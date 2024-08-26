@@ -1,0 +1,113 @@
+* { 
+	box-sizing: border-box;
+} 
+
+html { 
+	scroll-behavior: smooth; 
+} 
+
+body { 
+  	height: 200vh; 
+  	background: rgb(0,0,0); 
+	background-image: linear-gradient(180deg , rgba(0, 0, 0, 1) 0%, rgba(2, 0, 30, 1) 25%, rgba(4, 0, 56, 1) 78%, rgba(0, 0, 0, 1) 100%); 
+ 	position: relative;
+}
+
+#projectsButton { 
+	opacity: 0; 
+	transition: 1.5s; 
+	transition-delay: 0.5s; 
+	text-decoration: none; 
+	color: white; 
+	letter-spacing: 0.18vmin; 
+	font-size: 3vmin; 
+	font-family: Gill Sans, sans-serif; 
+	font-weight: 600; 
+	border: 1px solid white; 
+	border-radius: 5px; 
+	padding: 1vw; 
+}
+
+#mainContainer { 
+  display: flex; 
+  align-items: center; 
+  gap: 13vh; 
+  flex-direction: column; 
+  height: 200vh;
+  position: absolute;
+  width: 100%;
+  height: 200vh;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) { #card 
+		{ -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px); } 
+} 
+
+#nameContainer { 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	width: 100%;
+} 
+
+#name { 
+	color: whitesmoke; 
+	font-size: 7vmin; 
+	letter-spacing: 0.65vmin; 
+	font-family: Gill Sans, sans-serif; 
+	font-weight: 600; 
+	text-transform: uppercase; 
+}
+
+h2 { 
+	color: whitesmoke;
+	position: absolute;
+	top: 20vh;
+	font-size: 5vmin;
+	letter-spacing: 0.65vmin; 
+	font-family: Gill Sans, sans-serif; 
+	font-weight: 500; 
+	text-transform: uppercase;
+	text-align: center;
+} 
+
+#bioContainer { 
+	width: 90%; 
+	line-height: 1.6; 
+	letter-spacing: 0.18vmin; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	text-align: center;
+	color: whitesmoke; 
+	font-size: 3vmin; 
+	font-family: Gill Sans, sans-serif; 
+	font-weight: 600;
+} 
+
+#projectContainer { 
+	background-color: rgba(70, 70, 70, 0.15); 
+	filter: drop-shadow(0 0 5px rgb(50,50,50,0.5)); 
+	width: 75vw; 
+	height: 35vh; 
+	display: flex; 
+	align-items: center; 
+	justify-content: space-around; 
+	border-radius: 20px; 
+	margin-top: 40vh;
+} 
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) { #projectContainer { -webkit-backdrop-filter: blur(2px); backdrop-filter: blur(2px); 
+		} 
+} 
+
+.picture { 
+	width: 20vw; 
+	height: 25vh; 
+	border-radius: 12px;
+	transition: transform .4s;
+}
+
+.picture:hover {
+	transform: scale(1.2);
+}
