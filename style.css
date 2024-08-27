@@ -103,7 +103,8 @@ h2 {
 
 .picture { 
 	width: 20vw; 
-	height: 25vh; 
+	height: 25vh;
+	object-fit: cover;
 	border-radius: 12px;
 	transition: transform .4s;
 }
