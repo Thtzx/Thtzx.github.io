@@ -102,9 +102,8 @@ h2 {
 } 
 
 .picture { 
-	width: 20vw; 
-	height: 25vh;
-	object-fit: cover;
+	width: 20vmin; 
+	height: 25vmin;
 	border-radius: 12px;
 	transition: transform .4s;
 }
