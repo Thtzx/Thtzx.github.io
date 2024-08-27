@@ -105,6 +105,8 @@ h2 {
 	width: 20vmin; 
 	height: 25vmin;
 	padding: 2vmin;
+	object-fit: contain;
+	background-color: black;
 	border-radius: 12px;
 	transition: transform .4s;
 }
