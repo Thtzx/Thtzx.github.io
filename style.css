@@ -104,7 +104,7 @@ h2 {
 .picture { 
 	width: 20vmin; 
 	height: 25vmin;
-	padding: 2vmin;
+	padding: 1vmin 2vmin;
 	object-fit: contain;
 	background-color: black;
 	border-radius: 12px;
